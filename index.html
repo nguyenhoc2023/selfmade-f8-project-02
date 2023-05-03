@@ -197,24 +197,51 @@
               </p>
             </div>
             <div class="direction">
-              <a href="#!" class="icon">
-                <img src="./assets/image/back-icon.svg" alt="back" />
-              </a>
-              <a href="#!" class="icon">
-                <img src="./assets/image/next-icon.svg" alt="next" />
-              </a>
+              <button class="chevron-left chevron">
+                <svg
+                  width="8"
+                  height="14"
+                  viewBox="0 0 8 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7 1L1 7L7 13"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <button class="chevron-right chevron">
+                <svg
+                  width="8"
+                  height="14"
+                  viewBox="0 0 8 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L1 13"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
             </div>
           </div>
           <div class="list">
             <div class="item">
-              <img
-                src="./assets/image/featured-img-1.jpg"
-                alt="Basic web design"
-                class="image"
-              />
+              <a href="#!"
+                ><img
+                  src="./assets/image/featured-img-1.jpg"
+                  alt="Basic web design"
+                  class="image"
+              /></a>
               <div class="box-item">
                 <div class="top-row">
-                  <h3>Basic web design</h3>
+                  <h3><a href="#!">Basic web design</a></h3>
                   <div class="rate">
                     <img
                       src="./assets/image/star-icon.svg"
@@ -235,14 +262,16 @@
               </div>
             </div>
             <div class="item">
-              <img
-                src="./assets/image/featured-img-2.jpg"
-                alt="UI/UX design"
-                class="image"
-              />
+              <a href="#!">
+                <img
+                  src="./assets/image/featured-img-2.jpg"
+                  alt="UI/UX design"
+                  class="image"
+                />
+              </a>
               <div class="box-item">
                 <div class="top-row">
-                  <h3>UI/UX design</h3>
+                  <h3><a href="#!">UI/UX design</a></h3>
                   <div class="rate">
                     <img
                       src="./assets/image/star-icon.svg"
@@ -263,14 +292,16 @@
               </div>
             </div>
             <div class="item">
-              <img
-                src="./assets/image/featured-img-3.jpg"
-                alt="Web App design"
-                class="image"
-              />
+              <a href="#!">
+                <img
+                  src="./assets/image/featured-img-3.jpg"
+                  alt="Web App design"
+                  class="image"
+                />
+              </a>
               <div class="box-item">
                 <div class="top-row">
-                  <h3>Web App design</h3>
+                  <h3><a href="#!">Web App design</a></h3>
                   <div class="rate">
                     <img
                       src="./assets/image/star-icon.svg"
@@ -295,34 +326,98 @@
       </div>
       <div id="pricing" class="feedback">
         <div class="content">
-          <div class="box-fb">
-            <div class="info">
-              <img
-                src="./assets/image/feedback-avatar.jpg"
-                alt="Peter Moor"
-                class="avatar"
-              />
-              <p class="name">Peter Moor</p>
-              <p class="detail">Student of Web Design</p>
-              <div class="direction-dot">
-                <div class="dot"></div>
-                <div class="dot dot-2"></div>
-                <div class="dot"></div>
+          <div class="feedback-list">
+            <!-- box-fb - 1 -->
+            <div class="box-fb">
+              <div class="info">
+                <img
+                  src="./assets/image/feedback-avatar-1.jpg"
+                  alt="Peter Moor"
+                  class="avatar"
+                />
+                <p class="name">Peter Moor</p>
+                <p class="detail">Student of Web Design</p>
+                <div class="direction-dot">
+                  <div class="dot dot-2"></div>
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                </div>
               </div>
+              <blockquote>
+                <img
+                  src="./assets/image/quote-icon.svg"
+                  alt=""
+                  class="quote-icon"
+                />
+                <p>
+                  Not only does my resume look impressive—filled with the names
+                  and logos of world-class institutions—but these certificates
+                  also bring me closer to my career goals by validating the
+                  skills I've learned."
+                </p>
+              </blockquote>
             </div>
-            <blockquote>
-              <img
-                src="./assets/image/quote-icon.svg"
-                alt=""
-                class="quote-icon"
-              />
-              <p>
-                Not only does my resume look impressive—filled with the names
-                and logos of world-class institutions—but these certificates
-                also bring me closer to my career goals by validating the skills
-                I've learned."
-              </p>
-            </blockquote>
+
+            <!-- box-fb - 2 -->
+            <div class="box-fb">
+              <div class="info">
+                <img
+                  src="./assets/image/feedback-avatar-2.jpg"
+                  alt="Peter Moor"
+                  class="avatar"
+                />
+                <p class="name">Peter Moor</p>
+                <p class="detail">Student of Web Design</p>
+                <div class="direction-dot">
+                  <div class="dot"></div>
+                  <div class="dot dot-2"></div>
+                  <div class="dot"></div>
+                </div>
+              </div>
+              <blockquote>
+                <img
+                  src="./assets/image/quote-icon.svg"
+                  alt=""
+                  class="quote-icon"
+                />
+                <p>
+                  Not only does my resume look impressive—filled with the names
+                  and logos of world-class institutions—but these certificates
+                  also bring me closer to my career goals by validating the
+                  skills I've learned."
+                </p>
+              </blockquote>
+            </div>
+            <!-- box-fb - 3 -->
+            <div class="box-fb">
+              <div class="info">
+                <img
+                  src="./assets/image/feedback-avatar-3.jpg"
+                  alt="Peter Moor"
+                  class="avatar"
+                />
+                <p class="name">Peter Moor</p>
+                <p class="detail">Student of Web Design</p>
+                <div class="direction-dot">
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                  <div class="dot dot-2"></div>
+                </div>
+              </div>
+              <blockquote>
+                <img
+                  src="./assets/image/quote-icon.svg"
+                  alt=""
+                  class="quote-icon"
+                />
+                <p>
+                  Not only does my resume look impressive—filled with the names
+                  and logos of world-class institutions—but these certificates
+                  also bring me closer to my career goals by validating the
+                  skills I've learned."
+                </p>
+              </blockquote>
+            </div>
           </div>
         </div>
       </div>
@@ -383,58 +478,180 @@
               and travel
             </p>
           </div>
-          <div class="list">
-            <div class="item">
-              <img
-                src="./assets/image/blog-img-1.png"
-                alt="How to become a pro web designer in 2022 and get remot job?"
-                class="image"
-              />
-              <div class="box">
-                <p class="date">21 November 2021</p>
-                <div class="separate"></div>
-                <h3>
-                  How to become a pro web designer in 2022 and get remot job?
-                </h3>
-                <div class="btn">Read More</div>
+
+          <!--  list 1 -->
+          <div class="main-list">
+            <div class="box-list">
+              <div class="list">
+                <div class="item">
+                  <img
+                    src="./assets/image/blog-img-1.png"
+                    alt="How to become a pro web designer in 2022 and get remot job?"
+                    class="image"
+                  />
+                  <div class="box">
+                    <p class="date">21 November 2021</p>
+                    <h3>
+                      How to become a pro web designer in 2022 and get remot
+                      job?
+                    </h3>
+                    <div class="btn">Read More</div>
+                  </div>
+                </div>
+                <div class="item">
+                  <img
+                    src="./assets/image/featured-img-1.jpg"
+                    alt="How to become a pro web designer in 2022 and get remot job?"
+                    class="image"
+                  />
+                  <div class="box">
+                    <p class="date">21 November 2021</p>
+                    <h3>
+                      How to become a pro web designer in 2022 and get remot
+                      job?
+                    </h3>
+                    <div class="btn">Read More</div>
+                  </div>
+                </div>
+                <div class="item">
+                  <img
+                    src="./assets/image/blog-img-3.png"
+                    alt="How to become a pro web designer in 2022 and get remot job?"
+                    class="image"
+                  />
+                  <div class="box">
+                    <p class="date">21 November 2021</p>
+                    <h3>
+                      How to become a pro web designer in 2022 and get remot
+                      job?
+                    </h3>
+                    <div class="btn">Read More</div>
+                  </div>
+                </div>
+              </div>
+              <div class="tool">
+                <div class="direction-dot">
+                  <div class="dot dot-2"></div>
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                </div>
               </div>
             </div>
-            <div class="item">
-              <img
-                src="./assets/image/featured-img-1.jpg"
-                alt="How to become a pro web designer in 2022 and get remot job?"
-                class="image"
-              />
-              <div class="box">
-                <p class="date">21 November 2021</p>
-                <div class="separate"></div>
-                <h3>
-                  How to become a pro web designer in 2022 and get remot job?
-                </h3>
-                <div class="btn">Read More</div>
+
+            <!-- list 2 -->
+            <div class="box-list">
+              <div class="list">
+                <div class="item">
+                  <img
+                    src="./assets/image/blog-img-1.png"
+                    alt="How to become a pro web designer in 2022 and get remot job?"
+                    class="image"
+                  />
+                  <div class="box">
+                    <p class="date">21 November 2021</p>
+                    <h3>
+                      How to become a pro web designer in 2022 and get remot
+                      job?
+                    </h3>
+                    <div class="btn">Read More</div>
+                  </div>
+                </div>
+                <div class="item">
+                  <img
+                    src="./assets/image/featured-img-1.jpg"
+                    alt="How to become a pro web designer in 2022 and get remot job?"
+                    class="image"
+                  />
+                  <div class="box">
+                    <p class="date">21 November 2021</p>
+                    <h3>
+                      How to become a pro web designer in 2022 and get remot
+                      job?
+                    </h3>
+                    <div class="btn">Read More</div>
+                  </div>
+                </div>
+                <div class="item">
+                  <img
+                    src="./assets/image/blog-img-3.png"
+                    alt="How to become a pro web designer in 2022 and get remot job?"
+                    class="image"
+                  />
+                  <div class="box">
+                    <p class="date">21 November 2021</p>
+                    <h3>
+                      How to become a pro web designer in 2022 and get remot
+                      job?
+                    </h3>
+                    <div class="btn">Read More</div>
+                  </div>
+                </div>
+              </div>
+              <div class="tool">
+                <div class="direction-dot">
+                  <div class="dot"></div>
+                  <div class="dot dot-2"></div>
+                  <div class="dot"></div>
+                </div>
               </div>
             </div>
-            <div class="item">
-              <img
-                src="./assets/image/blog-img-3.png"
-                alt="How to become a pro web designer in 2022 and get remot job?"
-                class="image"
-              />
-              <div class="box">
-                <p class="date">21 November 2021</p>
-                <div class="separate"></div>
-                <h3>
-                  How to become a pro web designer in 2022 and get remot job?
-                </h3>
-                <div class="btn">Read More</div>
+
+            <!-- list 3 -->
+            <div class="box-list">
+              <div class="list">
+                <div class="item">
+                  <img
+                    src="./assets/image/blog-img-1.png"
+                    alt="How to become a pro web designer in 2022 and get remot job?"
+                    class="image"
+                  />
+                  <div class="box">
+                    <p class="date">21 November 2021</p>
+                    <h3>
+                      How to become a pro web designer in 2022 and get remot
+                      job?
+                    </h3>
+                    <div class="btn">Read More</div>
+                  </div>
+                </div>
+                <div class="item">
+                  <img
+                    src="./assets/image/featured-img-1.jpg"
+                    alt="How to become a pro web designer in 2022 and get remot job?"
+                    class="image"
+                  />
+                  <div class="box">
+                    <p class="date">21 November 2021</p>
+                    <h3>
+                      How to become a pro web designer in 2022 and get remot
+                      job?
+                    </h3>
+                    <div class="btn">Read More</div>
+                  </div>
+                </div>
+                <div class="item">
+                  <img
+                    src="./assets/image/blog-img-3.png"
+                    alt="How to become a pro web designer in 2022 and get remot job?"
+                    class="image"
+                  />
+                  <div class="box">
+                    <p class="date">21 November 2021</p>
+                    <h3>
+                      How to become a pro web designer in 2022 and get remot
+                      job?
+                    </h3>
+                    <div class="btn">Read More</div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="tool">
-            <div class="direction-dot">
-              <div class="dot"></div>
-              <div class="dot dot-2"></div>
-              <div class="dot"></div>
+              <div class="tool">
+                <div class="direction-dot">
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                  <div class="dot dot-2"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
